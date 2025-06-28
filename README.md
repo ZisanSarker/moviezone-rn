@@ -1,50 +1,101 @@
-# Welcome to your Expo app 👋
+# 🎬 MovieZone
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**MovieZone** is a sleek and modern React Native application that displays detailed information about movies. It pulls trending and popular movie data from a public movie API and presents it in an engaging, user-friendly interface.
 
-## Get started
+<br/>
 
-1. Install dependencies
+## 📱 Screenshots
 
+<div align="center">
+  <img src="assets/screenshots/screenshot1.jpeg" width="250" style="margin: 10px;" />
+  <img src="assets/screenshots/screenshot2.jpeg" width="250" style="margin: 10px;" />
+  <img src="assets/screenshots/screenshot3.jpeg" width="250" style="margin: 10px;" />
+</div>
+
+<br/>
+
+## 🚀 Features
+
+- 🔍 Browse trending and top-rated movies
+- 🎞️ View detailed information about each movie
+- 🌐 Fetches real-time data using The Movie Database (TMDB) API
+- 📱 Clean and responsive UI with React Native
+- ⚡ Fast and lightweight
+
+<br/>
+
+## 🛠️ Tech Stack
+
+- React Native (Expo)
+- JavaScript / TypeScript (if applicable)
+- Axios or Fetch API
+- TMDB API
+
+<br/>
+
+## ⚙️ Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/MovieZone.git
+   cd MovieZone
+   ```
+
+2. **Install dependencies:**
    ```bash
    npm install
    ```
 
-2. Start the app
+3. **Create a `.env` file in the root directory:**
+   ```
+   TMDB_API_KEY=your_tmdb_api_key_here
+   ```
 
+4. **Run the application:**
    ```bash
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+<br/>
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🧠 How It Works
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- The app fetches data from TMDB using an API key stored in a `.env` file.
+- Data is displayed using custom movie card components.
+- Navigation and UI are managed using React Native components and hooks.
 
-## Get a fresh project
+<br/>
 
-When you're ready, run:
+## 📁 Folder Structure
 
-```bash
-npm run reset-project
+```
+MovieZone/
+├── assets/
+│   └── screenshots/
+│       ├── screenshot1.jpeg
+│       ├── screenshot2.jpeg
+│       └── screenshot3.jpeg
+├── components/
+├── services/
+├── constants/
+├── App.js
+└── ...
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+<br/>
 
-## Learn more
+## 🧑‍💻 Author
 
-To learn more about developing your project with Expo, look at the following resources:
+**Zisan Sarker**  
+[GitHub Profile](https://github.com/ZisanSarker)
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+<br/>
 
-## Join the community
+## 📝 License
 
-Join our community of developers creating universal apps.
+This project is licensed under the MIT License.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+
+> If you like the project, consider giving it a ⭐️ on GitHub!
+
