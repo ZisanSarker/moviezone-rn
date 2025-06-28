@@ -112,10 +112,6 @@ MovieZone/
 
 <br/>
 
-## 📝 License
-
-This project is licensed under the MIT License.
-
 ---
 
 > If you like the project, consider giving it a ⭐️ on GitHub!
